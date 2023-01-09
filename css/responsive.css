@@ -1,0 +1,60 @@
+@media (max-width: 575.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .language { 
+        margin-left: 10px;
+    }
+    .main_button {
+        position: unset;
+        margin-bottom: 20px;
+    }
+    .control_btn {
+        display: none;
+    }
+    .navbar-nav.me-auto.mb-2.mb-lg-0.d-flex.nav_list { 
+        margin:0;
+    }
+    .index {
+        color:black;
+    }
+    .progressbar {
+        background-color:#747272;
+    }
+    .filter { 
+        width: 100%;
+        position: relative;
+        padding: 10px 16px;
+    }
+    .filter_option_item:after {
+        display: none;
+    }
+    .filter_option_item:before {
+        display: block;
+    }
+    .section-info {
+        text-align: center;
+    }
+    .section-infor-item {
+        justify-content: center !important;
+    }
+    .index,.progressbar  {
+        display: none;
+    }
+
+    .svg-inline--fa.fa-right {
+        display:none;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}

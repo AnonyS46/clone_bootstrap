@@ -416,6 +416,9 @@ main {
 .section-6 {
 }
 
+.section-img >img {
+  width: 100%;
+}
 .section-6-promotion-list {
   list-style: none;
   padding: 0;

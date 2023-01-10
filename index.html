@@ -122,14 +122,14 @@
         <!-- Slide show -->
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-index="1">
-                    <img src="./img/slide/image 28.png" class="d-block w-100" alt="...">
+                <div class="carousel-item active" style="background-image:url('./img/slide/image 28.png')" data-index="1">
+                    <img src="./img/slide/image 28.png" hidden class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-index="2">
-                    <img src="./img/slide/image 28.png" class="d-block w-100" alt="...">
+                <div class="carousel-item" style="background-image:url('./img/slide/image 28.png')" data-index="2">
+                    <img src="./img/slide/image 28.png" hidden class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-index="3">
-                    <img src="./img/slide/image 28.png" class="d-block w-100" alt="...">
+                <div class="carousel-item" style="background-image:url('./img/slide/image 28.png')" data-index="3">
+                    <img src="./img/slide/image 28.png" hidden class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev button-custom"  type="button" data-bs-target="#carouselExample"
@@ -233,7 +233,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 section-img">
-                        <img src="./img/section1.png" alt="">
+                        <!-- <img src="./img/section1.png" alt=""> -->
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="row section-1-main d-flex justify-content-between text-center">
@@ -273,7 +273,8 @@
             <div class="row text-center">
                 <div class="col-lg-4 text-center">
                     <div class="card">
-                        <img src="./img/card1.png" class="card-img-top" alt="...">
+                        <!-- <img src="./img/card1.png" class="card-img-top" alt="..."> -->
+                        <div class="card-bg" style="background-image: url('/img/card1.png');"></div>
                         <div class="card-body">
                             <h6 class="card-text">Bất động sản nhà ở</h6>
                             <span style="color:#2C2022; font-weight: 900;">3.243</span> bất động sản
@@ -282,7 +283,8 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="card ">
-                        <img src="./img/card2.png" class="card-img-top" alt="...">
+                        <div class="card-bg" style="background-image: url('/img/card2.png');"></div>
+                        <!-- <img src="./img/card2.png" class="card-img-top" alt="..."> -->
                         <div class="card-body">
                             <h6 class="card-text">Bất động sản nghỉ dưỡng</h6>
                             <span style="color:#2C2022; font-weight: 900;">573</span> bất động sản
@@ -290,8 +292,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <div class="card">
-                        <img src="./img/card3.png" class="card-img-top" alt="...">
+                    <div class="card" >
+                        <div class="card-bg" style="background-image: url('/img/card3.png');"></div>
+                        <!-- <img src="./img/card3.png" class="card-img-top" alt="..."> -->
                         <div class="card-body">
                             <h6 class="card-text">Bất động sản công nghiệp</h6>
                             <span style="color:#2C2022; font-weight: 900;">169</span> bất động sản
@@ -341,8 +344,9 @@
             </div>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6">
-                    <div class="card">
-                        <img src="./img/hotnews1.png" class="card-img-top section-4-img-1 " alt="...">
+                    <a href="#" class="card">
+                        <div class="card-bg" style="background-image: url('/img/hotnews1.png');"></div>
+                        <!-- <img src="./img/hotnews1.png" class="card-img-top section-4-img-1 " alt="..."> -->
                         <div class="card-body">
                             <a href="" class="card-link ">SOJO Hotels được vinh danh hai năm liên tiếp tại World Travel
                                 Awards</a>
@@ -353,11 +357,12 @@
                             </p>
                             <p class="card-text">14:30 | 10/10/2022</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card">
-                        <img src="./img/hotnew2.png" class="card-img-top section-4-img-1" alt="...">
+                    <a href="#" class="card">
+                        <div class="card-bg" style="background-image: url('/img/hotnew2.png');"></div>
+                        <!-- <img src="./img/hotnew2.png" class="card-img-top section-4-img-1" alt="..."> -->
                         <div class="card-body">
                             <a href="" class="card-link">IMC cùng đối tác quốc tế hợp sức tạo khu công nghiệp xanh</a>
                             <p class="card-text text-truncate-2">
@@ -368,31 +373,31 @@
                             </p>
                             <p class="card-text">14:30 | 10/10/2022</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <hr>
             <div class="row subnews">
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="http://">
                         <img src="./img/subnews.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         “Chạm” vào hạnh phúc tại TNG Holdings Vietnam
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="">
                         <img src="./img/subnews2.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         “Chạm” vào hạnh phúc tại TNG Holdings Vietnam
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="#" class="">
                         <img src="./img/subnews3.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         “Chạm” vào hạnh phúc tại TNG Holdings Vietnam
                     </a>
@@ -400,25 +405,25 @@
                 <!-- </div> -->
                 <!-- <div class="row mt-4"> -->
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="">
                         <img src="./img/subnews4.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         TNG Holdings Vietnam phát động Tết trồng cây, tạo không gian xanh cho đô thị
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="#" >
                         <img src="./img/subnews5.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         TNG Holdings Vietnam phát động Tết trồng cây, tạo không gian xanh cho đô thị
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-between mb-2">
-                    <div>
+                    <a href="">
                         <img src="./img/subnews6.png" alt="" class="section-4-img">
-                    </div>
+                    </a>
                     <a href="#" class="section-4-sub-content">
                         TNG Holdings Vietnam phát động Tết trồng cây, tạo không gian xanh cho đô thị
                     </a>

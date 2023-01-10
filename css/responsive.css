@@ -81,6 +81,9 @@
     .filter {
         width: 70%;
     }
+    .slick-prev {
+        left: 80%;
+    }
 }
 
 @media (min-width:1200px) { 

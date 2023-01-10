@@ -71,10 +71,19 @@
     .section-5-img{
         width: 100%;
     }
+    .button-custom {
+        display: block;
+      }  
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width:992px) and ( max-width: 1199.98px) { 
+    .filter {
+        width: 70%;
+    }
+}
+
+@media (min-width:1200px) { 
     .filter {
         width: 70%;
     }

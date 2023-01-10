@@ -343,6 +343,10 @@ main {
   width: 50%;
 }
 
+.button-custom {
+  display: none;
+}
+
 .section-4 > h3 {
   padding: 20px 0;
 }

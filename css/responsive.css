@@ -1,10 +1,22 @@
 @media (max-width: 575.98px) { 
-
+    .filter { 
+        width: 100%;
+        position: relative;
+        padding: 10px 16px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-
+    .filter { 
+        width: 100%;
+        position: relative;
+        padding: 10px 16px;
+    }
+    .dropdown-menu {
+        border:none;
+        transition: all 0.5;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -24,6 +36,10 @@
     }
     .index {
         color:black;
+    }
+
+    .carousel-item>img {
+        height:500px;
     }
     .progressbar {
         background-color:#747272;
@@ -52,9 +68,14 @@
     .svg-inline--fa.fa-right {
         display:none;
     }
+    .section-5-img{
+        width: 100%;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-
+@media (min-width:992px) and ( max-width: 1199.98px) { 
+    .filter {
+        width: 70%;
+    }
 }

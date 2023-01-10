@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Quicksand:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-
   margin: 0px;
   padding: 0px;
   font-size: 100%;
@@ -11,18 +10,19 @@ html {
   margin: 0px;
   padding: 0px;
 }
-
+.container-fluid {
+  padding: 0px;
+}
 body {
   margin: 0px;
   padding: 0px;
   font-family: "Quicksand", sans-serif;
   color: #747272;
 }
-.container-fluid {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
+
+  /* .row {
+    width: 100%;
+  } */
 header {
   font-size: 16px;
 }
@@ -40,6 +40,18 @@ header {
   margin-right: 4px;
 }
 
+/* .nav-item.dropdown:hover .dropdown-menu-custom {
+  display: flex;
+} */
+
+/* .dropdown-menu-custom {
+  display: none;
+  
+} */
+
+.subnews {
+  padding: 20px 0;
+}
 .logo_sub {
   display: inline-block;
   font-size: 24px;
@@ -92,6 +104,17 @@ header {
   display: block;
   margin-top: 0; /* remove the gap so it doesn't close */
 }
+
+.nav-link-custom::after {
+  display: none;
+}
+
+.dropdown-icon {
+  color:#747272;
+  margin-left:4px;
+  margin-top: 2px;
+}
+
 /* End Navbar Css */
 
 /* Slide css */
@@ -194,7 +217,7 @@ main {
 }
 
 .section-1 {
-  background-color: #dddddd;
+  background-color: #f8f7f7;
   padding: 10px 0;
 }
 
@@ -286,7 +309,7 @@ main {
 .section-3-title {
   font-weight: 800;
   position: relative;
-  margin-top: 40px;
+  padding: 10px 0;
 }
 
 .section-3-title:after {
@@ -340,6 +363,7 @@ main {
 .section-4-title {
   color: #1b1718;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .section-4-link {
   text-decoration: none;
@@ -357,6 +381,15 @@ main {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+
+.text-truncate-4 {
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
 .section-4-sub-content {
   color: #2c2022;
   font-weight: 600;
@@ -378,7 +411,7 @@ main {
 }
 
 .section-5-img {
-  width: 100%;
+  width: 90%;
 }
 
 .section-5-title {
@@ -413,8 +446,7 @@ main {
   padding: 10px 20px;
 }
 
-.section-6 {
-}
+
 
 .section-img >img {
   width: 100%;
